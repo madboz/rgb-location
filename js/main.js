@@ -1,4 +1,8 @@
-//arrays for stored values
+    //button animation
+
+    $('.button').hide().delay(6000).fadeIn(3000);
+
+    //arrays for stored values
 
         var storedLat = [];
         var storedLon = [];
