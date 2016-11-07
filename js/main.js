@@ -1,6 +1,6 @@
     //button animation
 
-    $('.button').hide().delay(4000).fadeIn(3000);
+    $('.button').hide().delay(5000).fadeIn(3000);
 
     //arrays for stored values
 
