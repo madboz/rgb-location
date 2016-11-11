@@ -91,7 +91,7 @@
                 
                 $('.archive').removeClass('hidden');
                 $('body').css('background-color','white');
-                $('.button').html('current &#8594;').css('color','black');
+                $('.button').html('&#8592 current').css('color','black');
             
                 clicked = true;
                 
