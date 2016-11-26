@@ -21,7 +21,11 @@
             for (var i = 0; i < storedLat.length; i++) {
                 
                 
-                $(".archive").append("<div class='swatch' style='background-color: rgb( " +storedLat[i]+ ", " +storedLon[i]+ "," +storedAlt[i]+ " )'></div>");
+                // $(".archive").append("<div class='disp' style='background-color: lightgrey'></div>");
+                
+                $('.archive').append("<div class='swatch' style='background-color: rgb( " +storedLat[i]+ ", " +storedLon[i]+ "," +storedAlt[i]+ " )'></div>")
+                
+                // $(".disp").html("lat:"+storedLat[i]+" lon:" +storedLon[i]+ " alt:" +storedAlt[i]);
                 
             }
             
