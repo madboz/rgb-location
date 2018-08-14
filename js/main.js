@@ -95,7 +95,7 @@
                 
                 $('.archive').removeClass('hidden');
                 $('body').css('background-color','white');
-                $('.button').html('current &#8594').css('color','black');
+                $('.button').html('Back to Current &#8594;').css('color','black');
             
                 clicked = true;
                 
@@ -103,7 +103,7 @@
                 
                 $('.archive').addClass('hidden');
                 $('body').css( 'background-color', 'rgb( ' +lat2+ ',' +lon2+ ',' +alt2+ ')');
-                $('.button').html('&#8592 history').css('color','white');
+                $('.button').html('&#8592; Location History').css('color','white');
                 
                 clicked = false;
                 
