@@ -94,8 +94,8 @@
             if ( clicked == false ) {
                 
                 $('.archive').removeClass('hidden');
-                $('body').css('background-color','white');
-                $('.button').html('Back to Current &#8594;').css('color','black');
+                $('body').css('background-color','gainsboro');
+                $('.button').html('Back to Current &#8594;').css('color','white');
             
                 clicked = true;
                 
