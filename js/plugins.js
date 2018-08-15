@@ -1,35 +1,5 @@
-// Avoid `console` errors in browsers that lack a console.
-(function() {
-    var method;
-    var noop = function () {};
-    var methods = [
-        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-        'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
-    ];
-    var length = methods.length;
-    var console = (window.console = window.console || {});
+/*** Cookies ***/
 
-    while (length--) {
-        method = methods[length];
-
-        // Only stub undefined methods.
-        if (!console[method]) {
-            console[method] = noop;
-        }
-    }
-}());
-
-// Place any jQuery/helper plugins in here.
-
-/*!
- * JavaScript Cookie v2.1.3
- * https://github.com/js-cookie/js-cookie
- *
- * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
- * Released under the MIT license
- */
 ;(function (factory) {
     var registeredInModuleLoader = false;
     if (typeof define === 'function' && define.amd) {
@@ -68,7 +38,6 @@
                 return;
             }
 
-            // Write
 
             if (arguments.length > 1) {
                 attributes = extend({
